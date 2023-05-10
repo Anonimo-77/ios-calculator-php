@@ -1,0 +1,154 @@
+.container {
+  width: 5.9cm;
+  height: 10.6cm;
+  background: black;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+@font-face {
+  font-family: "sf";
+  src: url("./SF-Pro-Display-Thin.otf");
+}
+@font-face {
+    font-family: "sf2";
+    src: url("./SF-Pro-Display-Medium.otf");
+  }
+  
+
+table,tr,td {
+  border-collapse: collapse;
+  border: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.display {
+  width: 5.9cm;
+  height: 3.2cm;
+  background: black;
+  color: white;
+  box-sizing: border-box;
+  font-family: "sf";
+  font-size: 40pt;
+  overflow: hidden;
+  padding-top: 60px;
+  text-align: right;
+  padding-right: 19px;
+  outline: none;
+  pointer-events: none;
+  border: none;
+}
+
+.btn-container {
+    width: 1.475cm;
+    box-sizing: border-box;
+    padding: 0.1375cm 0.1375cm 0.1375cm 0.1375cm;
+}
+.btnLightgray {
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 0.6cm;
+    background-color: #A5A5A5;
+    border: none;
+    font-family: "sf2";
+    font-size: 14pt;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+}
+.pmplus {
+    font-size: 12pt;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: "Cambria Math";
+}
+
+.btnLightgray:active:focus {
+    background-color: #D9D9D9;
+}
+
+.btnDarkgray {
+    
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 0.6cm;
+    background-color: #333333;
+    color: white;
+    border: none;
+    font-family: "sf2";
+    font-size: 14pt;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btnDarkgray:active:focus {
+    
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 0.6cm;
+    background-color: #737373;
+    color: white;
+    border: none;
+    font-family: "sf2";
+    font-size: 14pt;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btnOrange {
+    
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 0.6cm;
+    background-color: #ff9f0a;
+    color: white;
+    border: none;
+    font-family: "sf2";
+    font-size: 18pt;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+}
+.btnOrange:active {
+    
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 0.6cm;
+    background-color: #fff;
+    color: #ff9f0a;
+    border: none;
+    font-family: "sf2";
+    font-size: 18pt;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+}
+.btnOrange:active:focus {
+    
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 0.6cm;
+    background-color: #fbc78d;
+    color: white;
+    border: none;
+    font-family: "sf2";
+    font-size: 18pt;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.largebtn {
+    width: 2.6cm;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 0.4cm;
+}
+.largebtn:active:focus {
+    width: 2.6cm;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 0.4cm;
+}
